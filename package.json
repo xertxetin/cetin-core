@@ -1,0 +1,29 @@
+{
+  "name": "cetin-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xertxetin/cetin-core.git"
+  },
+  "keywords": [
+    "Cetin Core",
+    "javascript",
+    "vanilla js",
+    "CetinJS",
+    "webapp",
+    "mobile app",
+    "framework",
+    "pwa",
+    "progressive web app"
+  ],
+  "author": "XertXetin",
+  "license": "CC BY-NC-ND 4.0",
+    "dependencies": {
+  },
+  "type": "commonjs",
+  "description": "Core files of CetinJS framework. These files power the framework's core functionalities, ensuring high performance, security, and stability. Handle with care and avoid unauthorized modifications to maintain project integrity."
+}
