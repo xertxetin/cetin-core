@@ -32,8 +32,17 @@
 - **Secure and Stable**: Built with security and stability as top priorities.
 - **Frontend & Backend**: Seamlessly integrates and manages both client-side and server-side operations.
 
-
 ## Installation
+
+---
+
+> **Important Notice:** 
+> 
+> The [**`@cetin-core`**](https://www.npmjs.com/package/cetin-core) module requires the [**`@cetin-utils`**](https://www.npmjs.com/package/cetin-utils) module to function properly.
+> 
+> For building and running **`npm run core-check`**, the [**`@cetin-core`**](https://www.npmjs.com/package/cetin-core) module is required. Please ensure it is included.
+
+---
 
 Install **Cetin-Core** as part of your **CetinJS** project. This process ensures that all necessary core functionalities are set up correctly.
 
@@ -50,15 +59,15 @@ Leverage **Cetin-Core** to simplify common tasks. You can also integrate its com
 
 ```json
 "scripts": {
-  "core-install": "node node_modules/cetin-utils/run-install-cetin-core.js"
+  "core-check": "node node_modules/cetin-utils/run-check-cetin-core.js"
 }
 ```
 
 ### Running Commands
 
-1. **Install or Update Cetin Core:**
+1. **Check Cetin Core:**
    ```bash
-   npm run core-install
+   npm run core-check
    ```
 
 
@@ -85,7 +94,14 @@ You can create applications using the Core software and publish and distribute t
 
 Developed with ❤️ by [XertXetin](https://www.google.com/search?q=XertXetin) 🚀 [Me Force Technology](https://www.meforcetechnology.com/).
 
+---
 
-<p align="center">
-<a href="https://www.buymeacoffee.com/xertxetin" style="text-decoration:none;"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=xertxetin&button_colour=BD5FFF&font_colour=ffffff&font_family=Comic&outline_colour=000000&coffee_colour=FFDD00" /></a>
-</p>
+<div align="center">
+  <a href="https://github.com/sponsors/xertxetin" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/Support%20Me-Sponsor-blueviolet?style=for-the-badge&logo=github" alt="Sponsor Me">
+  </a>
+  
+  <a href="https://www.buymeacoffee.com/xertxetin" target="_blank" style="text-decoration: none;">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Donate-yellow?style=for-the-badge&logo=buymeacoffee" alt="Buy Me a Coffee">
+  </a>
+</div>
